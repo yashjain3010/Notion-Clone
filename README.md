@@ -2,17 +2,6 @@
 
 # Jotion - The connected workspace where better, faster work happens.
 
-![Jotion - The connected workspace where better, faster work happens.](/.github/images/img_main.png "Jotion - The connected workspace where better, faster work happens.")
-
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/notion-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/notion-clone/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/notion-clone/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/notion-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/notion-clone/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/notion-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/notion-clone/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/notion-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/notion-clone/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/notion-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/notion-clone/pulls "GitHub pull requests")
-[![Vercel status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://app-jotion.vercel.app/ "Vercel status")
-
 <!-- Table of Contents -->
 <details>
 
