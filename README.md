@@ -128,7 +128,7 @@ EDGE_STORE_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 EDGE_STORE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-5. Contents of `convex/.env.local`:
+Contents of `convex/.env.local`:
 
 ```env
 # convex/.env.local
@@ -137,7 +137,7 @@ EDGE_STORE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 CLERK_ISSUER_URL=<your-clerk-issuer-url>
 ```
 
-6. Convex Deployment
+Convex Deployment
 
 - Visit the Convex website: [https://convex.dev](https://convex.dev)
 - Log in to your Convex account or sign up if you don't have one.
@@ -147,7 +147,7 @@ CLERK_ISSUER_URL=<your-clerk-issuer-url>
 - In the Convex dashboard, find the public URL associated with your deployment.
 - Replace `<your-convex-url>` in the `.env.local` file with your Convex public URL.
 
-7. Clerk Authentication Keys
+Clerk Authentication Keys
 
 - Visit the Clerk dashboard: [https://clerk.dev](https://clerk.dev)
 - Log in to your Clerk account or sign up if you don't have one.
@@ -159,45 +159,26 @@ CLERK_ISSUER_URL=<your-clerk-issuer-url>
 - Replace `<your-clerk-issuer-url>` with the url that you copied.
 - Also, go to Convex dashboard > Settings > Environment Variables > Add `CLERK_ISSUER_URL` variable with value that you copied.
 
-8. Edge Store Keys
+Edge Store Keys
 
 - If you are using an Edge Store service, navigate to the respective dashboard or service provider.
 - Obtain the "Access Key" and "Secret Key" for your Edge Store.
 - Replace `<your-edge-store-access-key>` and `<your-edge-store-secret-key>` in the `.env.local` file with your Edge Store keys.
 
-9. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
 
-10. Now app is fully configured 👍 and you can start using this app using either one of `npm run dev` or `yarn dev` in one tab and `npx convex dev` in another tab.
+Now app is fully configured 👍 and you can start using this app using either one of `npm run dev` or `yarn dev` in one tab and `npx convex dev` in another tab.
 
 **NOTE:** Please make sure to keep your API keys and configuration values secure and do not expose them publicly.
 
-## :camera: Screenshots:
-
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
-
-![Create new pages](/.github/images/img2.png "Create new pages")
-
-![Notion-styled editor](/.github/images/img3.png "Notion-styled editor")
-
-![Search pages](/.github/images/img4.png "Search pages")
-
 ## :gear: Tech Stack
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Vercel](https://skillicons.dev/icons?i=vercel "Vercel")](https://vercel.app/ "Vercel") [![Prisma](https://skillicons.dev/icons?i=prisma "Prisma")](https://prisma.io/ "Prisma")
-
-## :wrench: Stats
-
-[![Stats for Jotion](/.github/images/stats.svg "Stats for Jotion")](https://pagespeed.web.dev/analysis/https-app-jotion-vercel-app/3wh1wtqo2u?form_factor=mobile "Stats for Jotion")
-
-## :raised_hands: Contribute
-
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Vercel](https://skillicons.dev/icons?i=vercel "Vercel")](https://vercel.app/ "Vercel")
 
 ## :gem: Acknowledgements
 
 Useful resources and dependencies that are used in Jotion.
 
-- Thanks to CodeWithAntonio: https://codewithantonio.com/
 - [@blocknote/core](https://www.npmjs.com/package/@blocknote/core): ^0.9.4
 - [@blocknote/react](https://www.npmjs.com/package/@blocknote/react): ^0.9.4
 - [@clerk/clerk-react](https://www.npmjs.com/package/@clerk/clerk-react): ^4.30.2
@@ -239,24 +220,12 @@ Useful resources and dependencies that are used in Jotion.
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
 - [typescript](https://www.npmjs.com/package/typescript): ^5
 
-## :coffee: Buy Me a Coffee
-
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
-
-## :rocket: Follow Me
-
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fnotion-clone "Tweet")
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCNAz_hUVBG2ZUN8TVm0bmYw)](https://www.youtube.com/@OPGAMER. "Subscribe my YouTube Channel")
-
 ## :books: Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## :page_with_curl: Deploy on Vercel
 
@@ -267,17 +236,3 @@ Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 ## :star: Give A Star
 
 You can also give this repository a star to show more people and they can use this repository.
-
-## :star2: Star History
-
-<a href="https://star-history.com/#sanidhyy/notion-clone&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/notion-clone&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/notion-clone&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/notion-clone&type=Timeline" />
-</picture>
-</a>
-
-<br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-# Notion-Clone
